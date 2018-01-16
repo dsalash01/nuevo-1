@@ -1,0 +1,7 @@
+1. Crear carpeta inca-trail en plugins
+2. Extrar ficheros dentro del directorio inca-trail
+3. Cambiar la configuración
+4. Instalar
+5. Crear contenido con:
+	5.1. Calendario con form select: [IncaTrailFull]
+	5.2. Calendario por mes: [IncaTrail month="3" year="2016"]

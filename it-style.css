@@ -1,0 +1,166 @@
+/*!
+ * Inca Trail Calendar V1
+ * Copyright 2016 Llika Inversiones E.I.R.L.
+ * http://llika.com
+ * info@llika.com
+ */
+#inca-trail-calendar {
+max-width: 760px;
+margin: 0px auto;
+display: inline-block;
+position: relative;
+}
+.it-icon {
+    background: url('icons.png') no-repeat;
+}
+.it-icon-ok{}
+.it-icon-remove {
+    background-position: 0px -23px;
+}
+#it-calendar {
+position: relative;
+}
+#it-calendar .it-wrapper-mensaje {
+    width: 100%;
+    position: absolute;
+    min-width: 100px;
+    z-index: 99;
+}
+#it-calendar .it-mensaje {
+    position: relative;
+    margin-top: 55px;
+    background: rgba(255, 255, 255, 0.83);
+    width: 60%;
+    max-width: 600px;
+    min-width: 450px;
+    min-height: 50%;
+    text-align: center;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#it-availability{
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+}
+#it-availability td{
+    padding: 0px;
+    text-align: center;
+    border-color: white;
+}
+
+#it-calendar tr td:hover {
+background-color: inherit;
+}
+.it-title{
+    font-size: 20pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 50px
+}
+.it-celda{
+    text-align: center;}
+.it-day {
+    background: #ff6633;
+    color: #FFFFFF;
+    font-size: 15pt;
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 2px solid #FFFFFF;
+    line-height: 22pt;
+}
+.it-day-content{
+border:2px solid #FFFFFF;
+border-top-color: #e1e1e1;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1e1e1+1,ffffff+65,e1e1e1+100 */
+background: #e1e1e1; /* Old browsers */
+background: -moz-linear-gradient(top, #e1e1e1 1%, #ffffff 65%, #e1e1e1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e1e1e1 1%,#ffffff 65%,#e1e1e1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e1e1e1 1%,#ffffff 65%,#e1e1e1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e1e1', endColorstr='#e1e1e1',GradientType=0 ); /* IE6-9 */
+}
+.it-day-content:hover{
+    border:2px solid #ff6633;
+    background: rgba(255,0,0,0.42);
+}
+.it-celda-available .it-day-content:hover{
+    border:2px solid green;
+    background: rgba(90, 255, 90, 0.42);
+}
+.it-number{
+    font-size: 25pt;
+    font-weight: bold;
+    line-height: 30pt;
+    color: #414141;
+}
+.it-month{
+    background-color: #666666;
+}
+.it-celda a{color:#414141;}
+.it-celda a:hover,
+.it-celda a:focus{
+    text-decoration: none;
+}
+.it-link{
+    font-size: 9px;
+    text-decoration: none;
+    box-shadow: 0 0px 0 0 currentcolor;
+    color: #666666;
+    height: 22px;
+    padding-left: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.it-no a{
+    color: #000000;
+}
+.it-day-name {
+font-size: 14pt;
+line-height: 25pt;
+}
+@media (max-width: 1024px){
+    .it-link{
+    width: 25px;
+    margin: 0px auto;
+    font-size: 0;}
+    .it-title {font-size: 16pt;}
+    .it-day-name {font-size: 11pt;}
+    .it-day{font-size: 13pt;}
+    .it-number{font-size: 15pt;}
+
+}
+.loader{
+background-image: url("loader.gif");
+
+}
+#it-calendar {
+position: relative;
+width: 100%;
+min-height: 80px;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.it-form-content select  {
+padding: 10px 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color: #FFFFFF;
+font-size: 20px;
+margin: 5px;
+cursor: pointer;
+background: #666666;
+border: 1px solid #666666;
+}
+.it-text-center{
+    text-align: center;
+}
+/** CUSTOM CSS */
+.it-day{background: #006699;}
+
